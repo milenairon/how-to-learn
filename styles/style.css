@@ -1,6 +1,7 @@
-.page, .header, .description, .digits, .feynman, .kaufman, .footer, .logo, .header__title, .header__square-pic, 
+.page, .header, .description, .feynman, .kaufman, .footer, .logo, .header__title, .header__square-pic, 
 .header__subtitle, .description, .two-columns, .two-columns__brief, .two-columns__main-text, 
-.two-columns__paragraph, .two-columns__span-accent {
+.two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
+.table__cell, .table__heading, .table__text {
  border: 1px solid red; 
 }
 
@@ -146,27 +147,99 @@
 } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .digits {
+  display: grid;
+} 
+
+/*Цифры и факты*/
+.section-title {
+  margin: 100px auto 20px ;
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
   
 } 
+
+/*Про учебу и мозг*/
+.section-subtitle {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  
+} 
+
+/*Общий блок для карточек*/
+.table {
+  width: 1100px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-self: center;
+  margin-bottom: 100px; 
+} 
+
+/*Карточка*/
+.table__cell {
+  width: 250px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 60px;
+  align-self: start;
+} 
+
+/*Заголовок в карточке*/
+.table__heading {
+  margin: 0 0 20px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  height: 26px; 
+} 
+
+/*Текст карточки*/
+.table__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal; 
+} 
+
+.table__text_bottom {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .feynman {
   
