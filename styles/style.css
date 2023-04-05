@@ -1,12 +1,3 @@
-.page, .header, .description, .feynman, .kaufman, .footer, .logo, .header__title, .header__square-pic, 
-.header__subtitle, .two-columns, .two-columns__brief, .two-columns__main-text, 
-.two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
-.table__cell, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .feynman__link, .footer__columns, .footer__columns_content_copyright, .logo__place_footer, .footer__author, 
-.footer__columns_content_info, .footer__column-heading, .footer__column-links, .footer__columns_content_social, 
-.footer__columns_column-link {
- border: 1px solid red; 
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
