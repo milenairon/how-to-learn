@@ -1,7 +1,7 @@
 .page, .header, .description, .feynman, .kaufman, .footer, .logo, .header__title, .header__square-pic, 
-.header__subtitle, .description, .two-columns, .two-columns__brief, .two-columns__main-text, 
+.header__subtitle, .two-columns, .two-columns__brief, .two-columns__main-text, 
 .two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
-.table__cell, .table__heading, .table__text {
+.table__cell, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .feynman__link {
  border: 1px solid red; 
 }
 
@@ -14,6 +14,7 @@
   margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 0;
  }
 
 .header {
@@ -96,6 +97,7 @@
 /**/
 .description {
   display: grid;
+  margin-top: 100px;
 } 
 
 /**/
@@ -146,9 +148,10 @@
   font-weight: 600;
 } 
 
-
+/*Блок*/
 .digits {
   display: grid;
+  margin-top: 100px;
 } 
 
 /*Цифры и факты*/
@@ -209,9 +212,64 @@
   line-height: 1.2;
   font-weight: normal; 
 } 
-
+/*Текст афориста*/
 .table__text_bottom {
   margin-top: 20px;
+}
+
+/*Блок*/
+.feynman {
+ background-color: #f2f2f2;
+ display: flex;
+ margin-top: 100px;
+ min-height: 800px;
+ align-content: center;
+ flex-direction: column;
+ position: relative;
+}
+
+/*Метод Фейнмана*/
+.feynman__title {
+  z-index: 2;
+  position: relative;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 100px auto 0;
+  width: 648px;
+  text-align: center;
+}
+
+/*Выучить и не забыть*/
+.feynman__subtitle {
+  z-index: 2;
+  line-height: 51px;
+  font-size: 36px;
+  margin-top: 70px;
+  font-weight: normal;
+  margin: 70px auto 0;
+  text-align: center; 
+}
+
+/*Подробнее*/
+.feynman__link {
+  
+  margin-right: 48px;
+  z-index: 2;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal; 
+  align-self: end;
+  position: absolute; 
+  top: 50%;
+}
+
+.feynman__image {
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  bottom: 0;
+  left: 0;
 }
 
 
@@ -241,9 +299,9 @@
 
 
 
-.feynman {
-  
-} 
+
+
+
 
 .kaufman {
 
