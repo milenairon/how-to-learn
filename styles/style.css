@@ -95,7 +95,6 @@
 .two-columns {
   width: 80%; 
   margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   justify-self: center; 
   justify-content: space-between; 
@@ -109,6 +108,7 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+  text-decoration: none;
 } 
 
 /*2 колонка*/
@@ -207,11 +207,6 @@
   margin: 100px auto 20px;
 } 
     
-/*Общий блок для карточек*/
- .table_theme_light {
-  margin-bottom: 100px;
-} 
-  
 /*Карточка*/
 .table__cell_theme_light {
   width: 250px;
@@ -224,7 +219,6 @@
  display: flex;
  margin-top: 100px;
  min-height: 800px;
- align-content: center;
  flex-direction: column;
  position: relative;
 }
@@ -246,7 +240,6 @@
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
-  margin-top: 70px;
   font-weight: normal;
   margin: 70px auto 0;
   text-align: center; 
@@ -262,6 +255,7 @@
   align-self: end;
   position: absolute; 
   top: 50%;
+  text-decoration: none;
 }
 
 .feynman__image {
@@ -335,6 +329,7 @@ position: relative;
 .footer {
   display: grid;
   background-color: #1f1f1f;
+  min-height: 350px;
 }
 
 /*Общий блок*/
@@ -346,16 +341,13 @@ position: relative;
   display: flex;
   flex-direction: row;
   justify-self: center;
-  /*margin-right: auto;
-  margin-left: auto;*/
   justify-content: space-between;
-  /*align-items: stretch;*/
+  min-height: 250px;
 }
 
 /*1 колонка*/
 .footer__columns_content_copyright {
   flex-basis: 711px;
-  /*justify-self: start;*/
   display: flex; 
 }
 
@@ -364,7 +356,6 @@ position: relative;
   margin: 0 auto;
   font-size: 25px;
   color: #fff;
-  /*флексбокс;*/
 }
 
 /*Виктор Абанькин*/
@@ -385,18 +376,18 @@ position: relative;
   width: 130px;
 }
 
-/*О Практикуме*/
+/*О Практикуме/Соцсети*/
 .footer__column-heading {
-  margin: 0 auto;
+  margin: 0 auto 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
 
-/*Главная Концепция Наставники*/
+/*Главная Концепция Наставники/ ютуб вк тикток*/
 .footer__column-links {
-  margin: 0 auto;
+  margin: 0 auto 10px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -407,20 +398,23 @@ position: relative;
 /*3 колонка*/
 .footer__columns_content_social {
   margin: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
-  width: 115px;
 }
 
-/*Месенджеры*/
+/*Блок месенджеров*/
 .footer__columns_column-link {
-  margin: 0 auto;
+  margin: 0 auto 16px;
   color: #fff;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 /*Иконки*/
 .footer__columns_column-icon {
- margin: 0 auto;
+  margin: 0;
+  width: 16px;
+  height: 16px;
 }
