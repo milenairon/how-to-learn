@@ -5,7 +5,6 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   padding: 0;
  }
@@ -218,7 +217,7 @@
  background-color: #f2f2f2;
  display: flex;
  margin-top: 100px;
- min-height: 800px;
+ height: 890px;
  flex-direction: column;
  position: relative;
 }
@@ -360,7 +359,7 @@ position: relative;
 
 /*Виктор Абанькин*/
 .footer__author {
-  margin-bottom: 0;
+  margin-bottom: 18px;
   margin-left: 0;
   line-height: 25px;
   font-size: 18px;
@@ -383,6 +382,17 @@ position: relative;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
+}
+
+/*Убираем отступы слева в браузере IE и Opera и Firefox, Safari, Chrome*/
+.ul {
+  margin-left: 0; 
+  padding-left: 0;
+}
+
+/* Убираем маркеры */
+.li {
+  list-style-type: none; 
 }
 
 /*Главная Концепция Наставники/ ютуб вк тикток*/
