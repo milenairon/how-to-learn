@@ -1,3 +1,14 @@
+/*Все селекторы*/
+.page, .header, .description, .feynman, .kaufman, .footer, .logo, .logo_place_header, .header__title, 
+.header__square-pic, .header__subtitle, .two-columns, .two-columns__brief, .two-columns__main-text, 
+.two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
+.table__cell, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .feynman__link, .footer__columns, 
+.footer__column, .footer__column_content_copyright, .logo_place_footer, .footer__author, .footer__column_content_info, 
+.footer__column-heading, .footer__column-links, .footer__columns_content_social, .footer__column-link, .ul {
+ padding: 0;
+}
+
+/*Body*/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,7 +17,6 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  padding: 0;
  }
 
 .header {
@@ -17,13 +27,13 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 /*Логотип*/
 .logo {
   height: 32px;
   width: 228px;
-  position: absolute;
 }
 
 /*Текст логотипа*/
@@ -31,6 +41,9 @@
   margin: 30px 0 0 64px;
   font-size: 25px;
   color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*Научится учится*/
@@ -150,6 +163,7 @@
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
+  margin: 100px auto 20px;
 } 
 
 /*Про учебу и мозг*/
@@ -177,6 +191,8 @@
   flex-wrap: wrap;
   display: flex;
   align-self: start;
+  width: 250px;
+  margin-top: 60px;
 } 
 
 /*Заголовок в карточке*/
@@ -200,23 +216,12 @@
   margin-top: 20px;
 }
 
-/*Цифры и факты*/
-.section-title_theme_light {
-  margin: 100px auto 20px;
-} 
-    
-/*Карточка*/
-.table__cell_theme_light {
-  width: 250px;
-  margin-top: 60px;
-} 
-
 /*Блок*/
 .feynman {
  background-color: #f2f2f2;
  display: flex;
  margin-top: 100px;
- height: 890px;
+ min-height: 890px;
  flex-direction: column;
  position: relative;
 }
@@ -347,18 +352,19 @@ position: relative;
 /*1, 2, 3 колонки*/
 .footer__column {
   display: flex;
+  margin: 0;
 }
 
 /*1 колонка*/
 .footer__column_content_copyright {
   flex-basis: 711px;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 /*Текст логотипа*/
 .logo_place_footer {
-  margin: 0 auto;
-  font-size: 25px;
-  color: #fff;
+  margin: 0;
 }
 
 /*Виктор Абанькин*/
@@ -369,7 +375,6 @@ position: relative;
   font-size: 18px;
   font-weight: normal;
   color: #fff;
-  align-self: end;
 }
 
 /*2 колонка*/
@@ -379,7 +384,7 @@ position: relative;
 
 /*О Практикуме/Соцсети*/
 .footer__column-heading {
-  margin: 0 auto 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -388,8 +393,7 @@ position: relative;
 
 /*Убираем отступы слева в браузере IE и Opera и Firefox, Safari, Chrome*/
 .ul {
-  margin-left: 0; 
-  padding-left: 0;
+  margin: 0; 
 }
 
 /* Убираем маркеры */
@@ -399,7 +403,7 @@ position: relative;
 
 /*Главная Концепция Наставники/ ютуб вк тикток*/
 .footer__column-links {
-  margin: 0 auto 10px 0;
+  margin: 0 0 10px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -409,13 +413,12 @@ position: relative;
 
 /*3 колонка*/
 .footer__column_content_social {
-  margin: 0;
   flex-direction: column;
 }
 
 /*Блок месенджеров*/
 .footer__column-link {
-  margin: 0 auto 16px;
+  margin: 0 0 16px;
   color: #fff;
   text-decoration: none;
   display: flex;
