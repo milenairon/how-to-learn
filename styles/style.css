@@ -254,9 +254,9 @@
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal; 
+  font-weight: normal;
   align-self: end;
-  position: absolute; 
+  position: absolute;
   top: 50%;
   text-decoration: none;
 }
@@ -289,7 +289,7 @@ position: relative;
 
 /*от Джоша Кауфмана*/
 .section-subtitle_theme_dark {
-  color: white; 
+  color: white;
   z-index: 1;
   position: relative;
 } 
@@ -307,16 +307,16 @@ position: relative;
 
 /*Заголовок в карточке*/
 .table__heading_theme_dark {
-  color: white; 
+  color: white;
   z-index: 1;
-  position: relative; 
+  position: relative;
 } 
 
 /*Текст карточки*/
 .table__text_theme_dark {
-  color: white; 
+  color: white;
   z-index: 1;
-  position: relative; 
+  position: relative;
 } 
 
 /*Треугольник*/
@@ -393,12 +393,12 @@ position: relative;
 
 /*Убираем отступы слева в браузере IE и Opera и Firefox, Safari, Chrome*/
 .ul {
-  margin: 0; 
+  margin: 0;
 }
 
 /* Убираем маркеры */
 .li {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 /*Главная Концепция Наставники/ ютуб вк тикток*/
