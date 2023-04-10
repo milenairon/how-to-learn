@@ -1,13 +1,3 @@
-/*Все селекторы*/
-.page, .header, .description, .feynman, .kaufman, .footer, .logo, .logo_place_header, .header__title, 
-.header__square-pic, .header__subtitle, .two-columns, .two-columns__brief, .two-columns__main-text, 
-.two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
-.table__cell, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .feynman__link, .footer__columns, 
-.footer__column, .footer__column_content_copyright, .logo_place_footer, .footer__author, .footer__column_content_info, 
-.footer__column-heading, .footer__column-links, .footer__columns_content_social, .footer__column-link, .ul {
- padding: 0;
-}
-
 /*Body*/
 .page {
   min-width: 1100px;
@@ -38,28 +28,30 @@
 
 /*Текст логотипа*/
 .logo_place_header {
-  margin: 30px 0 0 64px;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 64px;
   font-size: 25px;
   color: #000;
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /*Научится учится*/
 .header__title {
   align-self: center;
-  margin-left: 64px;
+  margin: 0 auto 0 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
   color: #000;
-  width: 400px;
+  width: 730px;
   z-index: 3;
 }
 
 /*Текст снизу*/
 .header__subtitle {
+  margin: 0;
   z-index: 3;
   position: absolute;
   bottom: 30px;
@@ -73,6 +65,7 @@
 /*Ссылка*/
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /*Опять двойка*/
@@ -92,23 +85,23 @@
   background-color: #2f80ed;
   position: absolute;
   right: 0;
-  margin-top: 64px;
+  top: 64px;
   z-index: 1;
 }
 
 /*Блок*/
 .description {
   display: grid;
-  margin-top: 100px;
 } 
 
 /*Общий блок*/
 .two-columns {
   width: 80%;
-  margin-top: 100px;
+  margin: 100px 0 0;
   display: flex;
   justify-self: center;
-  justify-content: space-between; 
+  justify-content: space-between;
+  min-height: 348px;
 } 
 
 /*1 колонка*/
@@ -119,30 +112,24 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  text-decoration: none;
+  color: #2f80ed;
 } 
 
 /*2 колонка*/
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 } 
 
-/*Параграф*/
+/*Параграфы*/
 .two-columns__paragraph {
+  margin: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
-} 
-
-/*Параграф 1*/
-.two-columns__paragraph_top {
-  margin-top: 0;
-} 
-
-/*Параграф 3*/
-.two-columns__paragraph_bottom {
-  margin-bottom: 0;
 } 
 
 /*Вывод*/
@@ -153,7 +140,6 @@
 /*Блок*/
 .digits {
   display: grid;
-  margin-top: 100px;
 } 
 
 /*Цифры и факты*/
@@ -184,13 +170,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   justify-self: center;
+  margin: 0 0 100px;
+  padding: 0;
+  list-style-type: none;
 } 
 
 /*Карточка*/
 .table__cell {
-  flex-wrap: wrap;
   display: flex;
-  align-self: start;
+  flex-direction: column;
   width: 250px;
   margin-top: 60px;
 } 
@@ -201,7 +189,6 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
-  height: 26px; 
 } 
 
 /*Текст карточки*/
@@ -209,10 +196,10 @@
   margin: 0;
   font-size: 18px;
   line-height: 1.2;
-  font-weight: normal; 
+  font-weight: normal;
 } 
 /*Текст афориста*/
-.table__text_bottom {
+.table__text:nth-child(3) {
   margin-top: 20px;
 }
 
@@ -220,7 +207,6 @@
 .feynman {
  background-color: #f2f2f2;
  display: flex;
- margin-top: 100px;
  min-height: 890px;
  flex-direction: column;
  position: relative;
@@ -245,12 +231,12 @@
   font-size: 36px;
   font-weight: normal;
   margin: 70px auto 0;
-  text-align: center; 
+  text-align: center;
 }
 
 /*Подробнее*/
 .feynman__link {
-  margin-right: 48px;
+  right: 48px;
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
@@ -259,6 +245,7 @@
   position: absolute;
   top: 50%;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /*Изображение Фейнмана*/
@@ -272,31 +259,45 @@
 
 /*Блок*/
 .kaufman {
-background-color: #1f1f1f;
-display: grid;
-overflow: hidden;
-z-index: -2;
-position: relative;
+  background-color: #1f1f1f;
+  display: grid;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
 } 
+
+/*Треугольник*/
+.kaufman__triangle {
+  z-index: 2;
+  position: absolute;
+  right: -210px;
+  top: 0px;
+  z-index: 1;
+  width: 877px;
+  height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
+}
 
 /*Принципы обучения*/
 .section-title_theme_dark {
   margin: 90px auto 20px;
   color: white;
-  z-index: 1;
+  z-index: 3;
   position: relative;
 } 
 
 /*от Джоша Кауфмана*/
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
+  z-index: 3;
   position: relative;
 } 
 
 /*Общий блок для карточек*/
 .table_theme_dark {
  margin-bottom: 90px;
+ z-index: 3;
 } 
 
 /*Карточка*/
@@ -308,26 +309,16 @@ position: relative;
 /*Заголовок в карточке*/
 .table__heading_theme_dark {
   color: white;
-  z-index: 1;
+  z-index: 3;
   position: relative;
 } 
 
 /*Текст карточки*/
 .table__text_theme_dark {
   color: white;
-  z-index: 1;
+  z-index: 3;
   position: relative;
 } 
-
-/*Треугольник*/
-.kaufman__triangle {
-  position: absolute;
-  right: -210px;
-  margin-top: -210px;
-  z-index: -1;
-  width: 877px;
-  height: 877px;
-}
  
 /*Блок*/
 .footer {
@@ -391,39 +382,34 @@ position: relative;
   color: #fff;
 }
 
-/*Убираем отступы слева в браузере IE и Opera и Firefox, Safari, Chrome*/
-.ul {
+/*Блок месенджеров*/
+.footer__column-links {
   margin: 0;
-}
-
-/* Убираем маркеры */
-.li {
-  list-style-type: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0;
 }
 
 /*Главная Концепция Наставники/ ютуб вк тикток*/
-.footer__column-links {
-  margin: 0 0 10px 0;
+.footer__column-link {
+  margin: 0 0 0px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: #fff;
-  text-decoration: none;
+  list-style-type: none;
+}
+
+/*Наставники/тикток: переопределяем отступ*/
+.footer__column-link:nth-last-child(1) {
+  margin-bottom: 16px;
 }
 
 /*3 колонка*/
 .footer__column_content_social {
   flex-direction: column;
-}
-
-/*Блок месенджеров*/
-.footer__column-link {
-  margin: 0 0 16px;
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 /*Иконки*/
