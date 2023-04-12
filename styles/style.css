@@ -388,6 +388,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   padding: 0;
+  list-style-type: none;
 }
 
 /*Главная Концепция Наставники/ ютуб вк тикток*/
@@ -398,10 +399,6 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
-}
-
-li {
-  list-style-type: none;
 }
 
 /*Наставники/тикток: переопределяем отступ*/
