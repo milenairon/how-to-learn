@@ -1,4 +1,8 @@
 /*Ссылка, оборачивающаяя логотип*/
+.resources__link {
+  text-decoration: none;
+}
+
 /*Осветление цвета ссылки при наведении*/
 .resources__link:hover {
   opacity: 0.7;
