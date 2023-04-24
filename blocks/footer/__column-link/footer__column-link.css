@@ -1,0 +1,19 @@
+/*Главная Концепция Наставники/ ютуб вк тикток*/
+.footer__column-link {
+    margin: 0 0 0px 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*Наставники/тикток: переопределяем отступ*/
+.footer__column-link:nth-last-child(1) {
+  margin-bottom: 16px;
+}
+
+/*Осветление цвета ссылки при наведении*/
+.footer__column-link:hover {
+  opacity: 0.7;
+}

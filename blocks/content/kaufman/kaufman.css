@@ -1,0 +1,8 @@
+/*Блок*/
+.kaufman {
+    background-color: #1f1f1f;
+    display: grid;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+  } 

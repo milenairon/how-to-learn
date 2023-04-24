@@ -1,0 +1,4 @@
+/*3 колонка*/
+.footer__column_content_social {
+    flex-direction: column;
+  }

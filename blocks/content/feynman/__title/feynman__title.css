@@ -1,0 +1,11 @@
+/*Метод Фейнмана*/
+.feynman__title {
+    z-index: 2;
+    position: relative;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    margin: 100px auto 0;
+    width: 648px;
+    text-align: center;
+  }

@@ -1,0 +1,10 @@
+/*Ссылка*/
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/*Осветление цвета ссылки при наведении*/
+.header__link:hover {
+  opacity: 0.7;
+}

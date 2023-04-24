@@ -1,0 +1,11 @@
+.page, .header, .description, .feynman, .kaufman, .footer, .logo, .logo_place_header, .header__title, 
+.header__square-pic, .header__subtitle, .two-columns, .two-columns__brief, .two-columns__main-text, 
+.two-columns__paragraph, .two-columns__span-accent, .digits, .section-title, .section-subtitle, .table, 
+.table__cell, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .feynmanlink, .footer__columns, 
+.footer__column, .footer__column_content_copyright, .logo_place_footer, .footer__author, .footer__column_content_info, 
+.footer__column-heading, .footer__column-links, .footer__columns_content_social, .footer__column-link, .ul, 
+.cards, .cards__image, .cards__title , .video, .section-title, .section-subtitle, .oakley, 
+.khan, .khan__container, .khan__author, .khan__title, .khan__quote, .khan__quote-author, .khan__quote-author-subline,
+.khan__book-container, .khan__book-pic, .khan__buy-link, .resources, .resources__logo-zone  {
+  border: 1px solid red;
+}
