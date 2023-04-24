@@ -1,11 +1,11 @@
 /*Научится учится*/
 .header__title {
-    align-self: center;
-    margin: 0 auto 0 64px;
-    font-size: 102px;
-    line-height: 96px;
-    font-weight: 600;
-    color: #000;
-    width: 730px;
-    z-index: 3;
-  }
+  align-self: center;
+  margin: 0 auto 0 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  color: #000;
+  width: 730px;
+  z-index: 3;
+}

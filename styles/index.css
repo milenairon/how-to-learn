@@ -1,7 +1,5 @@
 @import url(/styles/normalize.css);
 
-
-
 /*Блок header*/
 
 @import url(../blocks/header/header.css);
@@ -16,7 +14,6 @@
 
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
-
 /*Блок logo*/
 
 @import url(../blocks/logo/logo.css);
@@ -25,16 +22,13 @@
 
 @import url(../blocks/logo/_place/_footer/logo_place_footer.css);
 
-
 /*Блок rotation*/
 
 @import url(../blocks/rotation/rotation.css);
 
-
 /*Блок description*/
 
 @import url(../blocks/content/description/description.css);
-
 
 /*Блок two-columns*/
 
@@ -48,11 +42,9 @@
 
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
-
 /*Блок techniques*/
 
 @import url(../blocks/content/techniques/techniques.css);
-
 
 /*Элемент section-title*/
 
@@ -60,13 +52,11 @@
 
 @import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
 
-
 /*Элемент section-subtitle*/
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
 
 @import url(../blocks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
-
 
 /*Блок cards*/
 
@@ -80,7 +70,6 @@
 
 @import url(../blocks/cards/__description/cards__description.css);
 
-
 /*Блок video*/
 
 @import url(../blocks/content/video/video.css);
@@ -89,11 +78,9 @@
 
 @import url(../blocks/content/video/__iframe/video__iframe.css);
 
-
 /*Блок oakley*/
 
 @import url(../blocks/content/oakley/oakley.css);
-
 
 /*Блок feynman*/
 
@@ -107,11 +94,9 @@
 
 @import url(../blocks/content/feynman/__image/feynman__image.css);
 
-
 /*Блок digits*/
 
 @import url(../blocks/content/digits/digits.css);
-
 
 /*Блок table*/
 
@@ -130,7 +115,6 @@
 @import url(../blocks/table/__text/_theme/_dark/table__text_theme_dark.css);
 
 @import url(../blocks/table/_theme/_dark/table_theme_dark);
-
 
 /*Блок khan*/
 
@@ -154,13 +138,11 @@
 
 @import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
 
-
 /*Блок kaufman*/
 
 @import url(../blocks/content/kaufman/kaufman.css);
 
 @import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
-
 
 /*Блок resources*/
 
@@ -169,7 +151,6 @@
 @import url(../blocks/content/resources/__link/resources__link.css);
 
 @import url(../blocks/content/resources/__logo/resources__logo.css);
-
 
 /*Блок footer*/
 
@@ -195,15 +176,14 @@
 
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
-
 /*Body*/
 
 .page {
-    min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-    max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
-    margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }

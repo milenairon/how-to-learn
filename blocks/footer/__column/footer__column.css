@@ -1,6 +1,5 @@
 /*1, 2, 3 колонки*/
 .footer__column {
-    display: flex;
-    margin: 0;
-  }
-  
+  display: flex;
+  margin: 0;
+}

@@ -1,12 +1,12 @@
 /*Текст карточки*/
 .table__text {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: normal;
-  } 
-  
-  /*Текст афориста*/
-  .table__text:nth-child(3) {
-    margin-top: 20px;
-  }
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+/*Текст афориста*/
+.table__text:nth-child(3) {
+  margin-top: 20px;
+}

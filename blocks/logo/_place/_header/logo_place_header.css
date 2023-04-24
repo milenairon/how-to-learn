@@ -1,10 +1,10 @@
 /*Текст логотипа*/
 .logo_place_header {
-    top: 30px;
-    right: 0;
-    bottom: 0;
-    left: 64px;
-    font-size: 25px;
-    color: #000;
-    position: absolute;
-  }
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 64px;
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+}

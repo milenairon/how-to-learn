@@ -1,6 +1,6 @@
 /*1 колонка*/
 .footer__column_content_copyright {
-    flex-basis: 711px;
-    justify-content: space-between;
-    flex-direction: column;
-  }
+  flex-basis: 711px;
+  justify-content: space-between;
+  flex-direction: column;
+}
