@@ -4,8 +4,8 @@
   margin: 80px auto 217px;
   padding: 0;
   list-style-type: none;
-}
-
-.resources__logo-zone > li {
-  display: inline;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

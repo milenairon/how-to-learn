@@ -1,6 +1,6 @@
 /*Ссылка, оборачивающаяя логотип*/
 .resources__link {
-  text-decoration: none;
+  text-align: center;
 }
 
 /*Осветление цвета ссылки при наведении*/
