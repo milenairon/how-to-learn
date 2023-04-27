@@ -1,6 +1,6 @@
 /*Обложка книги*/
 .khan__book-pic {
-  margin: 0;
+  margin: 0 48px 0 0;
   width: 620px;
   height: 608px;
   object-fit: none;
