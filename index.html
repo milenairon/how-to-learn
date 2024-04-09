@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./pages/index.css" >
+    <link rel="icon" href="./images/header-image.png" type="image/png" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -13,22 +14,22 @@
           src="./images/logo_place_header.svg"
           class="logo logo_place_header"
           alt="Яндекс Практикум"
-        >
+        />
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать →</a>
+          <a href="#description" class="header__link">Узнать →</a>
         </p>
         <img
           class="header__main-illustration"
           src="./images/header-image.png"
           alt="Картина - Опять двойка"
-        >
+        />
         <div class="rotation header__square-pic"></div>
       </header>
       <main class="content">
-        <section class="description">
+        <section class="description" id="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
@@ -61,7 +62,7 @@
                 class="cards__image"
                 src="./images/cards-attention.png"
                 alt="Картинка два вида внимания"
-              >
+              />
               <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">
                 Глубокие знания возникают, если чередовать сфокусированное и
@@ -73,7 +74,7 @@
                 class="cards__image"
                 src="./images/cards-recall.png"
                 alt="Картинка Recall"
-              >
+              />
               <h3 class="cards__title">Recall</h3>
               <p class="cards__description">
                 Вспоминайте изученное — это позволит соединить разрозненные
@@ -85,7 +86,7 @@
                 class="cards__image"
                 src="./images/cards-interliving.png"
                 alt="Картинка Интерливинг"
-              >
+              />
               <h3 class="cards__title">Интерливинг</h3>
               <p class="cards__description">
                 Изучайте несколько навыков одновременно, они обогащают друг
@@ -97,7 +98,7 @@
                 class="cards__image"
                 src="./images/cards-question.png"
                 alt="Картинка Вопросы"
-              >
+              />
               <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
@@ -109,7 +110,7 @@
                 class="cards__image"
                 src="./images/cards-competence.png"
                 alt="Картинка Иллюзия компетентности"
-              >
+              />
               <h3 class="cards__title">Иллюзия компетентности</h3>
               <p class="cards__description">
                 Повторите про себя, запишите, расскажите другу: вам только
@@ -158,12 +159,17 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
-          <a href="#" class="feynman__link">Подробнее →</a>
+          <a
+            href="https://www.marieclaire.ru/karera/metod-feinmana-kak-vyuchit-chto-ugodno-i-nikogda-ne-zabyvat/"
+            class="feynman__link"
+            target="_blank"
+            >Подробнее →</a
+          >
           <img
             class="feynman__image"
             src="./images/feynman.png"
             alt="Изображение Фейнмана"
-          >
+          />
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -231,8 +237,13 @@
                 class="khan__book-pic"
                 src="./images/khan-book.jpg"
                 alt="Обложка книги Весь мир — школа, автор - Салман Хан"
+              />
+              <a
+                class="khan__buy-link"
+                target="_blank"
+                href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/"
+                >Купить книгу →</a
               >
-              <a class="khan__buy-link" href="#">Купить книгу →</a>
             </div>
           </div>
         </section>
@@ -314,39 +325,39 @@
           </p>
           <ul class="resources__logo-zone">
             <li class="resources__link">
-              <a href="#">
+              <a href="https://arzamas.academy/courses" target="_blank">
                 <img
                   class="resources__logo"
                   src="./images/resources-arzamas.svg"
                   alt="Арзамаз"
-                >
+                />
               </a>
             </li>
             <li class="resources__link">
-              <a href="#">
+              <a href="https://vk.com/nplusone" target="_blank">
                 <img
                   class="resources__logo"
                   src="./images/resources-n1.svg"
                   alt="Н+1"
-                >
+                />
               </a>
             </li>
             <li class="resources__link">
-              <a href="#">
+              <a href="https://strelka.club/" target="_blank">
                 <img
                   class="resources__logo"
                   src="./images/resources-strelka.svg"
                   alt="Стрелка"
-                >
+                />
               </a>
             </li>
             <li class="resources__link">
-              <a href="#">
+              <a href="https://polka.academy/" target="_blank">
                 <img
                   class="resources__logo"
                   src="./images/resources-polka.svg"
                   alt="Полка"
-                >
+                />
               </a>
             </li>
           </ul>
@@ -359,20 +370,35 @@
               src="./images/logo_place_footer.svg"
               class="logo logo_place_footer"
               alt="Яндекс Практикум"
-            >
-            <p class="footer__author">© Виктор Абанькин</p>
+            />
+            <p class="footer__author">© Елена Васильева</p>
           </div>
           <nav class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__column-link">Главная</a>
+                <a
+                  href="https://practicum.yandex.ru/"
+                  class="footer__column-link"
+                  target="_blank"
+                  >Главная</a
+                >
               </li>
               <li>
-                <a href="#" class="footer__column-link">Концепция</a>
+                <a
+                  href="https://practicum.yandex.ru/how-we-learn/"
+                  class="footer__column-link"
+                  target="_blank"
+                  >Концепция</a
+                >
               </li>
               <li>
-                <a href="#" class="footer__column-link">Наставники</a>
+                <a
+                  href="https://practicum.yandex.ru/how-we-learn/#rec407580085"
+                  class="footer__column-link"
+                  target="_blank"
+                  >Наставники</a
+                >
               </li>
             </ul>
           </nav>
@@ -380,32 +406,44 @@
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__column-link">
+                <a
+                  href="https://www.youtube.com/channel/UCjaEmNS6ZOeKgVemfBikjGQ"
+                  class="footer__column-link"
+                  target="_blank"
+                >
                   <img
                     src="./images/youtube-icon.svg"
                     class="footer__social-icon"
                     alt="Ютуб"
-                  >
+                  />
                   YouTube
                 </a>
               </li>
               <li>
-                <a href="#" class="footer__column-link">
+                <a
+                  href="https://vk.com/yandex.practicum"
+                  class="footer__column-link"
+                  target="_blank"
+                >
                   <img
                     src="./images/vk_color_white.svg"
                     class="footer__social-icon"
                     alt="ВКонтакте"
-                  >
+                  />
                   ВКонтакте
                 </a>
               </li>
               <li>
-                <a href="#" class="footer__column-link">
+                <a
+                  href="https://www.tiktok.com/tag/яндекспрактикум"
+                  class="footer__column-link"
+                  target="_blank"
+                >
                   <img
                     src="./images/tiktok-icon.svg"
                     class="footer__social-icon"
                     alt="Тикток"
-                  >
+                  />
                   TikTok
                 </a>
               </li>
