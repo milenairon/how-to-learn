@@ -3,12 +3,9 @@
 ---
 
 <div align="center">
-  <iframe
-    width="600"
-    allowfullscreen
-    title="Обзор проекта Научиться учиться"
-    src="https://vk.com/video140148237_456239223"
->
+<a href="https://vk.com/video140148237_456239223">
+    <img width="600" alt="Обзор статичного сайта" src="https://vk.com/video140148237_456239223">
+  </a>
 </div>
 
 ## Оглавление
