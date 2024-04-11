@@ -36,12 +36,21 @@
 
 ## 2. Как запустить проект
 
-Как запустить проект.
+Как запустить проект:
 
+### Вариант 1. Запустить через gh-pages.
+Перейдите по ссылке https://milenairon.github.io/how-to-learn/
+
+### Вариант 2. Скачать и запустить кликом index.html 
 1. Скачайте из репозитория https://github.com/milenairon/how-to-learn папку, нажав на кнопку Code → Download ZIP
 2. Извлеките данные из папки.
-3. <br>Вариант 1. Откройте проект, нажав левой кнопкой мыши 2 раза на файл index.html.<br>
-   Вариант 2. Если у вас VS Code, то откройте папку при помощи этого приложения. Скачайте расширение для VS Code Live Server. Откройте проект, нажав правой кнопкой мыши 1 раз на файл index.html в VS Code и выберите Open with Live Server.
+3. Вариант 1. Откройте проект, нажав левой кнопкой мыши 2 раза на файл index.html.
+
+### Вариант 3. Скачать и запустить через Live Server
+1. Скачайте из репозитория https://github.com/milenairon/how-to-learn папку, нажав на кнопку Code → Download ZIP
+2. Извлеките данные из папки.
+3. Если у вас VS Code, то откройте папку при помощи этого приложения. Скачайте расширение для VS Code Live Server. 
+4. Откройте проект, нажав правой кнопкой мыши 1 раз на файл index.html в VS Code и выберите Open with Live Server.
 
 ---
 
@@ -126,4 +135,4 @@ display: inline
 
 ## 5. Ссылка на GitHub Pages
 
-https://milenairon.github.io/russian-travel/
+https://milenairon.github.io/how-to-learn/
